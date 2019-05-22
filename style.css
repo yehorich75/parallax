@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.scene {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+.layer-bg {
+    background: url("img/parallax_bg.jpg") center no-repeat;
+    background-size: cover;
+}
+.layer-1 {
+    background: url("img/parallax_1.jpg") center no-repeat;
+    background-size: cover;
+}
+.layer-2 {
+    background: url("img/parallax_2.jpg") center no-repeat;
+    background-size: cover;
+}
